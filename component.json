@@ -6,7 +6,8 @@
   "keywords": [],
   "dependencies": {
     "matthewmueller/events": "*",
-    "karlbohlmark/backbone-wrap-error": "*"
+    "karlbohlmark/backbone-wrap-error": "*",
+    "component/underscore": "*"
   },
   "development": {},
   "license": "MIT",

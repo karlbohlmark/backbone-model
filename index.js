@@ -1,4 +1,5 @@
 var Backbone = {};
+var _ = require('underscore');
 Backbone.wrapError = require('backbone-wrap-error');
 
 // Backbone.Model
