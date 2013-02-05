@@ -1,6 +1,8 @@
-var Backbone = {};
 var _ = require('underscore');
 var Events = require('events');
+
+var Backbone = {};
+Backbone.extend = require('backbone-extend');
 Backbone.wrapError = require('backbone-wrap-error');
 
 // Backbone.Model
@@ -378,5 +380,7 @@ _.extend(Model.prototype, Events, {
   }
 
 });
+
+Model.extend = Backbone.extend;
 
 module.exports = Model;
